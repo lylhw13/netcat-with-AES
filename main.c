@@ -35,8 +35,8 @@ static struct option const longopts[] =
 void usage(int state)
 {
     fprintf(stderr, 
-        "usage: ncs [-s] -l port\n"
-        "       ncs [-s] host port\n");
+        "usage: ncs [-s passwd] -l port\n"
+        "       ncs [-s passwd] host port\n");
     exit(state);
 }
 
