@@ -1,0 +1,15 @@
+client
+*.txt
+*.out
+*.gch
+*.bundle
+*.backup
+test
+.*
+*.ssl
+*.jpg
+random*
+*.o
+genpasswd/
+tmp/
+verify/
