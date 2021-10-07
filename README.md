@@ -13,7 +13,15 @@ make
 ```
 
 # usage
+
 ```txt
 ncs [-s passwd] -l port
 ncs [-s passwd] host port
+```
+
+transfer file
+
+```txt
+ncs [-s passwd] -l port < filenamein
+ncs [-s passwd] host port > filenameout
 ```

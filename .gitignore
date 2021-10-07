@@ -10,6 +10,4 @@ test
 *.jpg
 random*
 *.o
-genpasswd/
-tmp/
-verify/
+ncs

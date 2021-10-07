@@ -1,3 +1,6 @@
+#ifndef ENCRYPT_H
+#define ENCRYPT_H
+
 #include <openssl/conf.h>
 #include <openssl/evp.h>
 #include <openssl/err.h>
@@ -16,3 +19,5 @@ int encry(unsigned char *plaintext, int plaintext_len, unsigned char *ciphertext
 int decry(unsigned char *ciphertext, int ciphertext_len, unsigned char *plaintext);
 
 void ctx_cleanup(void);
+
+#endif
